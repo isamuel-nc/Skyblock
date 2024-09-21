@@ -1,8 +1,8 @@
+package protosky.gen;
 import net.minecraft.util.math.Box;
 import net.minecraft.world.gen.structure.Structure;
 import net.minecraft.world.gen.structure.StructureStart;
 
-package protosky.gen;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
