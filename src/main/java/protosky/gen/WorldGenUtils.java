@@ -1,6 +1,5 @@
 package protosky.gen;
 
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.entry.RegistryEntry;
@@ -8,11 +7,14 @@ import net.minecraft.util.collection.PackedIntegerArray;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.ChunkPos;
 import net.minecraft.util.math.MathHelper;
-import net.minecraft.world.*;
 import net.minecraft.world.biome.Biome;
-import net.minecraft.world.chunk.*;
+import net.minecraft.world.chunk.ChunkSection;
+import net.minecraft.world.chunk.Heightmap;
+import net.minecraft.world.chunk.PalettedContainer;
+import net.minecraft.world.chunk.ProtoChunk;
+import net.minecraft.world.chunk.ReadableContainer;
 
-import java.util.*;
+import java.util.Map;
 
 public class WorldGenUtils
 {
